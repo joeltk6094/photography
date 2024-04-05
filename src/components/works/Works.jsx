@@ -21,61 +21,61 @@ const Works = () => {
             <div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid "
-                    src="/img/01.png"
+                    src="./img/01.png"
                     alt="..."
                 />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/02.png"
+                    src="./img/02.png"
                     alt="..."
                 />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/03.png"
+                    src="./img/03.png"
                     alt="..."
                 />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/04.png"
+                    src="./img/04.png"
                     alt="..."
                 />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/05.png"
+                    src="./img/05.png"
                     alt="..."
                 />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/06.png"
+                    src="./img/06.png"
                     alt="..."
                 />
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/07.png"
+                    src="./img/07.png"
                     alt="..."
                 />
             </div><div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/08.png"
+                    src="./img/08.png"
                     alt="..."
                 />
             </div><div className="col-sm-12 col-md-6 col-lg-4">
                 <img
                     className="img-fluid  mb-4"
-                    src="/img/09.png"
+                    src="./img/09.png"
                     alt="..."
                 />
             </div>

@@ -10,7 +10,7 @@ const Choose = () => {
           <div className="col-lg-4  col-md-6 col-sm-12 d-flex flex-column align-items-center">
             <div className={`text-center mb-3 ${styles.circle}`}>
               <img
-                src="/img/Photo Gallery.png"
+                src="./img/Photo Gallery.png"
                 alt=""
                 className={styles.centeredImage}
               />
@@ -26,7 +26,7 @@ const Choose = () => {
           <div className="col-lg-4   col-md-6 col-sm-12 d-flex flex-column align-items-center">
             <div className={`text-center mb-3 ${styles.circle}`}>
               <img
-                src="/img/My Location.png"
+                src="./img/My Location.png"
                 alt=""
                 className={styles.centeredImage}
               />
@@ -43,7 +43,7 @@ const Choose = () => {
           <div className="col-lg-4   col-md-6 col-sm-12 d-flex flex-column align-items-center">
             <div className={`text-center mb-3 ${styles.circle}`}>
               <img
-                src="/img/Camera.png"
+                src="./img/Camera.png"
                 alt=""
                 className={styles.centeredImage}
               />

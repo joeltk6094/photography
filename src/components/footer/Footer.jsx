@@ -39,7 +39,7 @@ const Footer = () => {
                 </button>
               </div>
               <div className="col-lg-4 d-none d-lg-block">
-                <img className={styles.boytoy} src="/img/Youngboy.png" alt="" />
+                <img className={styles.boytoy} src="./img/Youngboy.png" alt="" />
               </div>
             </div>
           </div>

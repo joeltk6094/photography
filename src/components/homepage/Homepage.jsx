@@ -42,7 +42,6 @@ const Homepage = () => {
           </nav>
         </div>
       </div>
-      ''
       <div className="container">
         <div className="row ">
           <div className="col-lg-5 col-md-12 ">
@@ -64,19 +63,19 @@ const Homepage = () => {
             <div className={`${styles.boxhero}`}>
               <div>
                 <img
-                  src="/img/unsplash_6Io0psUdasY.png"
+                  src="./img/unsplash_6Io0psUdasY.png"
                   alt=""
                   class="img-fluid"
                 />
               </div>
               <div className={styles.boxhero2}>
                 <img
-                  src="/img/unsplash_8nXKXYdO-Wk.png"
+                  src="./img/unsplash_8nXKXYdO-Wk.png"
                   alt=""
                   class="img-fluid "
                 />
                 <img
-                  src="/img/unsplash_SZtLK_W7vKo.png"
+                  src="./img/unsplash_SZtLK_W7vKo.png"
                   alt=""
                   class="img-fluid"
                 />

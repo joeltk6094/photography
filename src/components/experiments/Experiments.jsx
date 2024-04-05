@@ -46,14 +46,14 @@ const Experiments = () => {
             <div className={styles.box2}>
               <div className={styles.tab}>
                 <div className={styles.tab2}>
-                  <img className=" rounded" src="/img/q1.png" alt="" />
-                  <img className=" rounded" src="/img/q2.png" alt="" />
-                  <img className=" rounded" src="/img/q3.png" alt="" />
+                  <img className=" rounded" src="./img/q1.png" alt="" />
+                  <img className=" rounded" src="./img/q2.png" alt="" />
+                  <img className=" rounded" src="./img/q3.png" alt="" />
                 </div>
                 <div className={styles.tab2}>
-                  <img className=" rounded m-2 " src="/img/q4.png" alt="" />
-                  <img className=" rounded  m-2" src="/img/q5.png" alt="" />
-                  <img className=" rounded" src="/img/q6.png" alt="" />
+                  <img className=" rounded m-2 " src="./img/q4.png" alt="" />
+                  <img className=" rounded  m-2" src="./img/q5.png" alt="" />
+                  <img className=" rounded" src="./img/q6.png" alt="" />
                 </div>
               </div>
             </div>

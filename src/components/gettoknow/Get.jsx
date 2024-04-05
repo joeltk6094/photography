@@ -13,10 +13,10 @@ const Get = () => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className={styles.tree2}>
-                      <img className={styles.t1} src="/img/t1.png" alt="" />
-                      <img className={styles.t2} src="/img/t2.png" alt="" />
-                      <img className={styles.t3} src="/img/t3.png" alt="" />
-                      <img className={styles.t4} src="/img/t4.png" alt="" />
+                      <img className={styles.t1} src="./img/t1.png" alt="" />
+                      <img className={styles.t2} src="./img/t2.png" alt="" />
+                      <img className={styles.t3} src="./img/t3.png" alt="" />
+                      <img className={styles.t4} src="./img/t4.png" alt="" />
                     </div>
                   </div>
                   <div className="col-6">
@@ -24,7 +24,7 @@ const Get = () => {
                     <div>
                       <img
                         className={styles.t5}
-                        src="/img/unsplash_X_IvVDuHvDQ.png"
+                        src="./img/unsplash_X_IvVDuHvDQ.png"
                         alt=""
                       />
                     </div>

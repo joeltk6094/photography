@@ -45,21 +45,21 @@ const Floral = () => {
         <div className="container mt-5">
           <div className="row justify-content-between text-center mt-5 ">
             <div className={`col-lg-4 col-md-6 rounded ${styles.flower1}`}>
-              <img  className="img-fluid " src="/img/flowe1.png" alt="" />
+              <img  className="img-fluid " src="./img/flowe1.png" alt="" />
               <div class="d-flex align-items-baseline">
                 <div class="h1 font-weight-bold">01</div>
                 <div>/18</div>
               </div>
             </div>
             <div className={`col-lg-4 col-md-6 rounded ${styles.flower2}`}>
-              <img  className="img-fluid " src="/img/flowe2.png" alt="" />
+              <img  className="img-fluid " src="./img/flowe2.png" alt="" />
               <div class="d-flex align-items-baseline">
                 <div class="h1 font-weight-bold">02</div>
                 <div>/18</div>
               </div>
             </div>
             <div className={`col-lg-4 col-md-6 rounded ${styles.flower3}`}>
-              <img  className="img-fluid "  src="/img/flowe3.png" alt="" />
+              <img  className="img-fluid "  src="./img/flowe3.png" alt="" />
               <div class="d-flex align-items-baseline">
                 <div class="h1 font-weight-bold">03</div>
                 <div>/18</div>
