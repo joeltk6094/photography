@@ -1,0 +1,21 @@
+.heroh1{
+    color: #1A093C;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.herop{
+    color: rgba(0, 0, 0, 0.75);
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.body{
+    margin-top: 250px;
+    margin-bottom: 100px;
+}

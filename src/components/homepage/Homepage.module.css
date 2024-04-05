@@ -1,0 +1,126 @@
+.logo {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.42px;
+}
+
+.Navbutton {
+  width: 145px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 22.5px;
+  border: 2px solid #3f41a6;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logobtn {
+  color: #3f41a6;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.navbarbrand {
+  margin-right: 50px;
+  color: #787282;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.herotext {
+  color: #1a093c;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.herop {
+  color: rgba(26, 9, 60, 0.8);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 300px;
+}
+
+.herobtn {
+  width: 266px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #3f41a6;
+}
+
+.herobtntext {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+#img1 {
+  width: 680px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+#img2 {
+  width: 279px;
+  height: 250px;
+  flex-shrink: 0;
+}
+#img3 {
+  width: 380px;
+  height: 250px;
+  flex-shrink: 0;
+}
+
+.navbox {
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.imagecontainer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.herobox {
+  width: 500px;
+  height: 600px;
+}
+
+.boxhero {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.boxhero2 {
+  display: flex;
+  gap: 25px;
+}
+
+

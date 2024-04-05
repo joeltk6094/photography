@@ -1,0 +1,103 @@
+
+
+.herobtn {
+  width: 266px;
+  height: 80px;
+  border-radius: 50px;
+  background: #3f41a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobtntext {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btnicon {
+  justify-content: center;
+  align-items: center;
+}
+
+.btncontent {
+  display: flex;
+  align-items: center;
+}
+
+
+.herotext{
+    color: #3F41A6;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.heroh1{
+    color: #1A093C;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; 
+}
+
+.herop{
+    color: rgba(26, 9, 60, 0.80);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.headers{
+    margin-top: 100px;
+    margin-bottom: 100px ;
+}
+
+
+.tree1{
+  display: flex;
+}
+
+.tree2{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.t1{
+  width: 80px;
+height: 77px;
+}
+
+.t2{
+  width: 180px;
+  height: 138px;
+}
+
+.t3{
+  width: 180px;
+  height: 87px;
+}
+
+.t4{
+  width: 80px;
+  height: 77px;
+}
+
+.t5{
+ margin-left: 75px;
+}

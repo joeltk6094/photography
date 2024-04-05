@@ -1,0 +1,67 @@
+.herobox {
+  margin-left: 600px;
+  margin-top: 200px;
+}
+
+.heroh1 {
+  color: #1a093c;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.herop {
+  color: rgba(26, 9, 60, 0.8);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box {
+  margin-top: 100px;
+  background: #f6f5fb;
+  width: 100%;
+  height: 253px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.herotext {
+  margin-left: 600px;
+}
+
+.box2 {
+  position: relative;
+  bottom:  900px;
+  right: 250px;
+  width: 800px;
+  height: 550px;
+  border-radius: 20px;
+  background: #fff;
+  background-color: #fff;
+  box-shadow: -7px 24px 33px 11px rgba(0, 0, 0, 0.15);
+}
+
+
+.tab{
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 11px;
+  top: 60px;
+ 
+}
+.tab2{
+display: flex;
+gap: 20px;
+}
+

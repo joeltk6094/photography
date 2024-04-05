@@ -1,0 +1,103 @@
+.heroh1 {
+  color: #1a093c;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.herop {
+  color: rgba(26, 9, 60, 0.8);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.herobtn {
+  width: 266px;
+  height: 80px;
+  border-radius: 50px;
+  background: #3f41a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobtntext {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btnicon {
+  justify-content: center;
+  align-items: center;
+}
+
+.btncontent {
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  margin-top: -600px;
+}
+
+.body2 {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.flower2 {
+  position: relative;
+  bottom: 100px;
+}
+
+.flower3 {
+  position: relative;
+  bottom: 300px;
+}
+
+.flower1 img,
+.flower2 img,
+.flower3 img {
+  border-radius: 15px;
+}
+.next {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2.5px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  
+  .line {
+    width: 260px;
+    height: 3px;
+    background: #000;
+  }
+  
+  .linep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .svgStyle {
+    margin-left: 5px;
+  }
+  
