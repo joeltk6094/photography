@@ -50,6 +50,83 @@
   line-height: 125%;
 }
 
+@media only screen and (max-width: 600px) {
+  .herotext {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .herop {
+    margin: auto;
+  }
+}
+
+.centerbtn {
+  margin: auto;
+}
+
+.herobtn {
+  width: 266px;
+  height: 80px;
+  border-radius: 50px;
+  background: #3f41a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobtntext {
+  color: #170707;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btnicon {
+  justify-content: center;
+  align-items: center;
+}
+
+.btncontent {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .centerbtn .herobtn {
+    margin: 25px auto 40px auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .boxhero2 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.btnicon {
+  justify-content: center;
+  align-items: center;
+}
+
+.btncontent {
+  display: flex;
+  align-items: center;
+}
+
+.centerbtn {
+  margin: auto;
+}
+
 .herop {
   color: rgba(26, 9, 60, 0.8);
   font-family: Poppins;
@@ -66,6 +143,7 @@
   flex-shrink: 0;
   border-radius: 50px;
   background: #3f41a6;
+  margin-bottom: 50px;
 }
 
 .herobtntext {
@@ -121,6 +199,48 @@
 .boxhero2 {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 800px) {
+  .navbox {
+    margin: auto;
+    transform: scale(0.8);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
 
+@media only screen and (max-width: 800px) {
+  .herotext {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .herop {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .herobtn {
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .herotab {
+    flex-direction: column;
+    text-align: center;
+    display: contents;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .herotext {
+    padding: 50px;
+  }
+}

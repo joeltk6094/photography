@@ -43,3 +43,29 @@ margin-bottom: 100px;
     margin-left: 60px;
     margin-right: 60px;
   }
+
+  .box{
+    margin-bottom: 2000px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .heroh1 {
+      text-align: center;
+      font-size: 30px;
+      transform: scale(0.8);
+
+     }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .iconbox {
+      text-align: center;
+      transform: scale(0.8);
+      display: flex;
+      gap: 50px;
+      margin-top: -100px;
+     }
+  }
+  
+
+  

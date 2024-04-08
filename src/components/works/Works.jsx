@@ -4,7 +4,7 @@ import styles from "./Works.module.css";
 
 const Works = () => {
   return (
-    <div className={styles.body}>
+    <div>
     <div className="container">
         <div className="row">
             <div className="col-12 text-left">

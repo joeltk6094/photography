@@ -6,7 +6,7 @@ const Choose = () => {
     <div className={styles.body}>
       <h1 className={` text-center  ${styles.heroh1}`}>Why Choose us</h1>
       <div className="container">
-        <div className="row">
+        <div className={`row ${styles.iconbox}`}>
           <div className="col-lg-4  col-md-6 col-sm-12 d-flex flex-column align-items-center">
             <div className={`text-center mb-3 ${styles.circle}`}>
               <img

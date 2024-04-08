@@ -4,92 +4,119 @@
   border-radius: 100px;
   background: #431898;
   padding: 100px;
-margin-top: 200px;
+  margin-top: 200px;
 }
-.col8{
-    
-display: flex;
-flex-direction: column;
-justify-content: center;
+.col8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.heroh1{
-    color: #FFF;
-font-family: Poppins;
-font-size: 64px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.heroh1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.herop{
-    color: rgba(255, 255, 255, 0.80);
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.herop {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .herobtn {
-    width: 266px;
-    height: 80px;
-    border-radius: 50px;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .herobtntext {
-    color: #000000;
-    font-family: Poppins;
-    font-size: 20px;
-    margin-top: 7px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: center;
-    margin-right: 10px;
-  }
-  
-  .btnicon {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .btncontent {
-    display: flex;
-    align-items: center;
-  }
-
-  .photo{
-    margin-bottom: 100px;
-  }
-
- .boytoy{
-    margin-bottom: 200px;
- }
-
- .footer{
-    color: #3C3842;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    
- }
-
- .footer1{
-margin-top: 100px;
-margin-bottom: 50px;
-justify-content: center; 
-padding: 25px 133px 25px 131px;
-justify-content: center;
-align-items: flex-start;
-gap: 330px;
+  width: 266px;
+  height: 80px;
+  border-radius: 50px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.herobtntext {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-right: 10px;
+}
 
+.btnicon {
+  justify-content: center;
+  align-items: center;
+}
+
+.btncontent {
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  margin-bottom: 100px;
+}
+
+.boytoy {
+  margin-bottom: 200px;
+}
+
+.footer {
+  color: #3c3842;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.footer1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: center;
+  padding: 50px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 800px) {
+  .heroh1 {
+    min-width: 330px;
+    text-align: center;
+    font-size: 30px;
+    padding: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .herop {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .centerbtn {
+    margin: auto;
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    margin: auto;
+    transform: scale(0.7);
+  }
+}

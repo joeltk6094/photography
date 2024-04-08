@@ -5,6 +5,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 125%;
+  margin-bottom: 200px;
 }
 
 .herop {
@@ -55,8 +56,15 @@
 .body2 {
   margin-top: 100px;
   margin-right: 100px;
+  gap: 200px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .outterbox {
+    gap: 200px;
+    min-width: 382px;
+  }
+}
 .flower2 {
   position: relative;
   bottom: 100px;
@@ -73,31 +81,112 @@
   border-radius: 15px;
 }
 .next {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 450px;
-    height: 80px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    border: 2.5px solid rgba(0, 0, 0, 0.1);
-    background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 450px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2.5px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.line {
+  width: 260px;
+  height: 3px;
+  background: #000;
+}
+
+.linep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.svgStyle {
+  margin-left: 5px;
+}
+
+.centerbtn {
+  margin: auto;
+  margin-left: 40px;
+}
+
+.herobtn {
+  width: 266px;
+  height: 80px;
+  border-radius: 50px;
+  background: #3f41a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobtntext {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btnicon {
+  justify-content: center;
+  align-items: center;
+}
+
+.btncontent {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .heroh1 {
+    min-width: 330px;
+    text-align: center;
+    font-size: 35px;
+    padding: auto;
   }
-  
-  .line {
-    width: 260px;
-    height: 3px;
-    background: #000;
+}
+
+@media only screen and (max-width: 800px) {
+  .herop {
+    min-width: 330px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
   }
-  
-  .linep {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+  .next {
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    gap: 20px;
+    margin-left: 60px;
+    margin-top: -250px;
   }
-  
-  .svgStyle {
-    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .heroh1 {
+    margin-top: 450px;
+    padding: 50px;
+    text-align: center;
   }
-  
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .herop {
+    text-align: center;
+  }
+}
+

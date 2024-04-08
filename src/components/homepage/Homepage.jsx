@@ -42,11 +42,13 @@ const Homepage = () => {
           </nav>
         </div>
       </div>
-      <div className="container">
+
+      
+      <div className={`container`}>
         <div className="row ">
-          <div className="col-lg-5 col-md-12 ">
+          <div className={`col-lg-5 col-md-12 ${styles.herotab}`}>
             <h1
-              className={`${styles.herotext} display-1 display-md-2 mt-3 display-lg-3 display-xl-4`}
+              className={`${styles.herotext} text-ce display-1 display-md-2 mt-3 display-lg-3 display-xl-4`}
             >
               Where creative process happens
             </h1>
@@ -54,9 +56,34 @@ const Homepage = () => {
             <p className={` mt-3  ${styles.herop}`}>
               Your creativity, our inspiration Whatever your story, set if free.
             </p>
-            <button className={` mt-3  ${styles.herobtn}`}>
-              <h1 className={styles.herobtntext}>Get in Touch</h1>
-            </button>
+         
+            <div className={`${styles.centerbtn}`}>
+                <button className={styles.herobtn}>
+                  <h1
+                    className={` text-center align-content-center ${styles.herobtntext}`}
+                  >
+                    Get in Touch
+                  </h1>
+                  <div className="btnicon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                    >
+                      <circle
+                        cx="15"
+                        cy="15"
+                        r="15"
+                        fill="#F9F9FC"
+                        fill-opacity="0.35"
+                      />
+                      <path d="M12 9L13.5 10.5L18 15L12 21" stroke="white" />
+                    </svg>
+                  </div>
+                </button>
+              </div>
           </div>
 
           <div className="col-lg-7 col-md-12  ">
@@ -77,7 +104,7 @@ const Homepage = () => {
                 <img
                   src="./img/unsplash_SZtLK_W7vKo.png"
                   alt=""
-                  class="img-fluid"
+                  class="img-fluid "
                 />
               </div>
             </div>

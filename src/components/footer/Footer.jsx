@@ -3,9 +3,9 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className=" px-4">
       <div
-        className={` container d-flex justify-content-center align-items-center  ${styles.box}`}
+        className={`container d-flex justify-content-center align-items-center  ${styles.box}`}
       >
         <div className="row">
           <div className="col-lg-8 col-md-12">
@@ -16,6 +16,7 @@ const Footer = () => {
                   Your ceremony & reception venues, your vision, your dress, your
                   colors, and anything else you would like to share with us.{" "}
                 </p>
+                <div className={`${styles.centerbtn}`}>
                 <button className={`mb-3 ${styles.herobtn}`}>
                   <h1 className={styles.herobtntext}>Get in Touch</h1>
                   <div className="btnicon">
@@ -37,6 +38,8 @@ const Footer = () => {
                     </svg>
                   </div>
                 </button>
+                </div>
+                
               </div>
               <div className="col-lg-4 d-none d-lg-block">
                 <img className={styles.boytoy} src="./img/Youngboy.png" alt="" />

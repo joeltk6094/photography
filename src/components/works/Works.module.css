@@ -19,3 +19,26 @@ line-height: normal;
     margin-top: 250px;
     margin-bottom: 100px;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+    .heroh1  {
+      min-width: 330px;
+      text-align: center;
+      font-size: 35px;
+      padding: auto;
+
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 1200px) {
+    .herop  {
+        font-size: 20px;
+        text-align: center;
+      padding: auto;
+
+    }
+  }

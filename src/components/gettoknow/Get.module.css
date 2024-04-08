@@ -1,3 +1,10 @@
+.body{
+  background-color: yellowgreen;
+}
+
+.centerbtn{
+  margin: auto;
+}
 
 
 .herobtn {
@@ -8,6 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .herobtntext {
@@ -32,72 +40,111 @@
   align-items: center;
 }
 
-
-.herotext{
-    color: #3F41A6;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.herotext {
+  color: #3f41a6;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.heroh1{
-    color: #1A093C;
-font-family: Poppins;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 125%; 
+.heroh1 {
+  color: #1a093c;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.herop{
-    color: rgba(26, 9, 60, 0.80);
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.herop {
+  color: rgba(26, 9, 60, 0.8);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-
-
-.headers{
-    margin-top: 100px;
-    margin-bottom: 100px ;
+.headers {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-
-.tree1{
+.tree1 {
   display: flex;
 }
 
-.tree2{
+.tree2 {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding: 50px;
 }
 
-.t1{
-  width: 80px;
-height: 77px;
-}
-
-.t2{
-  width: 180px;
-  height: 138px;
-}
-
-.t3{
-  width: 180px;
-  height: 87px;
-}
-
-.t4{
+.t1 {
   width: 80px;
   height: 77px;
 }
 
-.t5{
- margin-left: 75px;
+.t2 {
+  width: 180px;
+  height: 138px;
 }
+
+.t3 {
+  width: 180px;
+  height: 87px;
+}
+
+.t4 {
+  width: 80px;
+  height: 77px;
+}
+
+@media only screen and (max-width: 700px) {
+  .t5 {
+    padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .centerbtn .herobtn {
+    margin: 25px auto 40px auto; 
+    transform: scale(0.8);
+
+   }
+}
+@media only screen and (max-width: 700px) {
+  .herotext,   .herop {
+    text-align: center;
+   }
+}
+
+@media only screen and (max-width: 700px) {
+  .heroh1 {
+    text-align: center;
+    font-size: 38px;
+    padding: 20px;
+    transform: scale(0.8);
+
+   }
+}
+
+@media only screen and (max-width: 700px) {
+  .herop {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+   }
+}
+
+/* @media only screen and (max-width: 700px) {
+  .body {
+    margin-top: -500px;
+   }
+}
+ */
