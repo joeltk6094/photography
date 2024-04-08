@@ -1,6 +1,8 @@
 import { Poppins } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'></link>
+
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -17,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={Oswald.className}>
         <main>{children}</main>
       </body>
     </html>
