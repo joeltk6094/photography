@@ -48,16 +48,16 @@ const Homepage = () => {
         <div className="row ">
           <div className={`col-lg-5 col-md-12 ${styles.herotab}`}>
             <h1
-              className={`${styles.herotext} text-ce display-1 display-md-2 mt-3 display-lg-3 display-xl-4`}
+              className={`${styles.herotext} text-ce display-1 display-md-2 mt-4 display-lg-3 display-xl-4`}
             >
               Where creative process happens
             </h1>
 
-            <p className={` mt-3  ${styles.herop}`}>
+            <p className={` mt-4  ${styles.herop}`}>
               Your creativity, our inspiration Whatever your story, set if free.
             </p>
          
-            <div className={`${styles.centerbtn}`}>
+            <div className={` mt-3 ${styles.centerbtn}`}>
                 <button className={styles.herobtn}>
                   <h1
                     className={` text-center align-content-center ${styles.herobtntext}`}
